@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
@@ -17,18 +17,18 @@ int main() {
         f2=2;
         if(f1>x && f1<y)
         {
-            c=c+1;
+            c++;
         }
         if(f2>x && f2<y)
         {
-            c=c+1;
+            c++;
         }
         fn=f1+f2;
         while(fn<y)
         {
             if(fn>x && fn<y)
             {
-                c=c+1;
+                c++;
             }
             f1=f2;
             f2=fn;
@@ -39,3 +39,4 @@ int main() {
    
     return 0;
 }
+
